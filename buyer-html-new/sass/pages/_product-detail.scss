@@ -4686,3 +4686,116 @@
     }
   }
 }
+
+.installment-details-modal{
+  .installment-details-list{
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: $base-color;
+      figure{
+        float: left;
+      }
+      tr{
+        tr:nth-of-type(odd){
+          background-color: #fafafa;
+        }
+      }
+    }
+    table tr th,
+    table tr td {
+      border-right: 1px solid $border;
+      border-bottom: 1px solid $border;
+      padding: 12px;
+      vertical-align: middle;
+    
+        
+    }
+    table tr th:first-child,
+    table tr td:first-child {
+      border-left: 1px solid $border;
+    }
+    table tr th {
+    
+      border: none;
+      text-align: left;
+      background: $theme-quaternary;
+      color: $white;
+    }
+    
+    /* top-left border-radius */
+    table tr:first-child th:first-child {
+      border-top-left-radius: 6px;
+    }
+    
+    /* top-right border-radius */
+    table tr:first-child th:last-child {
+      border-top-right-radius:6px;
+    }
+    
+    /* bottom-left border-radius */
+    table tr:last-child td:first-child {
+      border-bottom-left-radius: 6px;
+    }
+    
+    /* bottom-right border-radius */
+    table tr:last-child td:last-child {
+      border-bottom-right-radius: 6px ;
+    }
+  }
+  .modal-header .close {
+    font-size: 2.5rem !important;
+    background:$theme-tertiary;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    line-height: 0;
+    opacity: 1;
+    text-shadow: none;
+    color: $white;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  } 
+}
+.select-installment-plan,.selectinstallment-modal{ 
+  .radio{
+    margin-bottom: 1rem !important;
+    .radio-label{
+      img{ 
+        max-width: 3.6rem; 
+      }
+      font-size: 1.4rem;
+    }
+    ul{
+      margin: 1rem 0rem 0rem 3rem !important;
+      li{
+        span{
+          color: $thai-tea; 
+        }
+        strike{
+          color: $new-lable-color !important; 
+        }
+        .radio{
+          margin-bottom: 0rem !important;
+        }
+      }
+    }
+  }
+  h5{
+    font-size: 1.4rem;
+    font-weight:bold ;
+    color:$base-color-light;
+  }
+  button{
+    font-size: 1.4rem !important;
+    border-color:$thai-tea;
+    color: $thai-tea;
+    font-weight: bold; 
+    &:hover{
+      background-color:$thai-tea !important;
+    }
+  }
+}
