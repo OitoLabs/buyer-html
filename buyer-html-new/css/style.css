@@ -18546,14 +18546,15 @@ body {
   font-weight: bold;
   color: #565656;
 }
-.select-installment-plan button, .selectinstallment-modal button {
+.select-installment-plan button.btn-outline-warning, .selectinstallment-modal button.btn-outline-warning {
   font-size: 1.4rem !important;
   border-color: #FF7235;
   color: #FF7235;
   font-weight: bold;
 }
-.select-installment-plan button:hover, .selectinstallment-modal button:hover {
+.select-installment-plan button.btn-outline-warning:hover, .selectinstallment-modal button.btn-outline-warning:hover {
   background-color: #FF7235 !important;
+  color: white;
 }
 
 .cookies {
