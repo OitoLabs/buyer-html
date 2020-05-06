@@ -3044,3 +3044,27 @@
     }
   }
 }
+.add-creditcard{
+  h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: $base-color;
+  }
+  .form-group {
+    font-size: 1.4rem;
+    color: $base-color-light;
+    margin-bottom: 2rem; 
+    label{
+      font-size: 1.4rem;
+      font-weight: 500;
+      color:$base-color-light;
+
+    }
+  }
+  .modal-footer{
+    button{
+      font-weight: bold;
+      font-size: 1.6rem;
+    }
+  }
+}

@@ -18551,6 +18551,8 @@ body {
   border-color: #FF7235;
   color: #FF7235;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 .select-installment-plan button.btn-outline-warning:hover, .selectinstallment-modal button.btn-outline-warning:hover {
   background-color: #FF7235 !important;
@@ -24104,6 +24106,26 @@ body {
 }
 .selectinstallment-modal .modal-footer button {
   width: 100%;
+}
+
+.add-creditcard h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #101010;
+}
+.add-creditcard .form-group {
+  font-size: 1.4rem;
+  color: #565656;
+  margin-bottom: 2rem;
+}
+.add-creditcard .form-group label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #565656;
+}
+.add-creditcard .modal-footer button {
+  font-weight: bold;
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

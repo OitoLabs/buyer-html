@@ -4793,7 +4793,9 @@
     font-size: 1.4rem !important;
     border-color:$thai-tea;
     color: $thai-tea;
-    font-weight: bold; 
+    font-weight: bold;
+    display: flex;
+    align-items: center;
     &:hover{
       background-color:$thai-tea !important;
       color: $white;
