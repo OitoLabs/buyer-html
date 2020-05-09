@@ -355,6 +355,7 @@
       line-height: 3.4rem;
       color: $black;
       font-weight: bold;
+      margin-top: 3.2rem;
       @include breakpoint-down(xs){
         font-size: 1.8rem;
       }
@@ -374,12 +375,17 @@
         max-width: 65%;
       }
     }
+  }
+  @include breakpoint-down(xs){
+    margin-top: 0rem !important;
   }  
 }
-
 .modal-full {
   min-width: 100%;
   margin: 0;
+  .border-radius-8{
+    border-radius: 0rem !important;
+  }
 }
 
 .modal-full .modal-content {

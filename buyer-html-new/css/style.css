@@ -21182,6 +21182,7 @@ body {
   line-height: 3.4rem;
   color: #000000;
   font-weight: bold;
+  margin-top: 3.2rem;
 }
 @media (max-width: 575.98px) {
   .waitingroom-modal .modal-body h2 {
@@ -21205,10 +21206,18 @@ body {
     max-width: 65%;
   }
 }
+@media (max-width: 575.98px) {
+  .waitingroom-modal {
+    margin-top: 0rem !important;
+  }
+}
 
 .modal-full {
   min-width: 100%;
   margin: 0;
+}
+.modal-full .border-radius-8 {
+  border-radius: 0rem !important;
 }
 
 .modal-full .modal-content {
