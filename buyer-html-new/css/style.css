@@ -21169,22 +21169,41 @@ body {
   padding-bottom: 0;
 }
 
-.waitingroom-modal img {
-  margin: 8.7rem auto 3.2rem;
+.waitingroom-modal .modal-body {
+  padding: 8.7rem 0rem 3.2rem !important;
 }
-.waitingroom-modal h2 {
+@media (max-width: 575.98px) {
+  .waitingroom-modal .modal-body {
+    padding: 4.3rem 0rem 1.5rem !important;
+  }
+}
+.waitingroom-modal .modal-body h2 {
   font-size: 2.4rem;
   line-height: 3.4rem;
   color: #000000;
   font-weight: bold;
 }
-.waitingroom-modal p {
+@media (max-width: 575.98px) {
+  .waitingroom-modal .modal-body h2 {
+    font-size: 1.8rem;
+  }
+}
+.waitingroom-modal .modal-body p {
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #565656;
 }
-.waitingroom-modal p span {
+.waitingroom-modal .modal-body p span {
   font-weight: bold;
+}
+.waitingroom-modal .modal-body .logo {
+  max-width: 25%;
+  margin: 0rem auto 10.5rem !important;
+}
+@media (max-width: 575.98px) {
+  .waitingroom-modal .modal-body .logo {
+    max-width: 65%;
+  }
 }
 
 .modal-full {
