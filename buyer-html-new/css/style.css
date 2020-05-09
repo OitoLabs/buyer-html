@@ -21169,6 +21169,28 @@ body {
   padding-bottom: 0;
 }
 
+.waitingroom-modal img {
+  margin: 8.7rem auto 3.2rem;
+}
+.waitingroom-modal h2 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #000000;
+  font-weight: bold;
+}
+.waitingroom-modal p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #565656;
+}
+.waitingroom-modal p span {
+  font-weight: bold;
+}
+.waitingroom-modal .btn {
+  font-size: 1.6rem !important;
+  font-weight: bold;
+}
+
 .static {
   background-color: white;
   padding: 1.5rem;
