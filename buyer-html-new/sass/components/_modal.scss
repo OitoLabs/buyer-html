@@ -344,3 +344,50 @@
     }
   }
 }
+.waitingroom-modal{ 
+  .modal-body{
+    padding: 8.7rem 0rem 3.2rem !important; 
+    @include breakpoint-down(xs){
+      padding: 4.3rem 0rem 1.5rem !important; 
+    }
+    h2{
+      font-size: 2.4rem;
+      line-height: 3.4rem;
+      color: $black;
+      font-weight: bold;
+      margin-top: 3.2rem;
+      @include breakpoint-down(xs){
+        font-size: 1.8rem;
+      }
+    }
+    p{
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      color: $base-color-light;
+      span{
+        font-weight: bold; 
+      }
+    }
+    .logo{
+      max-width: 25%;
+      margin: 0rem auto 10.5rem !important;
+      @include breakpoint-down(xs){
+        max-width: 65%;
+      }
+    }
+  }
+  @include breakpoint-down(xs){
+    margin-top: 0rem !important;
+  }  
+}
+.modal-full {
+  min-width: 100%;
+  margin: 0;
+  .border-radius-8{
+    border-radius: 0rem !important;
+  }
+}
+
+.modal-full .modal-content {
+  min-height: 100vh; 
+}
